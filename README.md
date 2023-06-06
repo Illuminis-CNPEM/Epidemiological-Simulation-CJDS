@@ -15,7 +15,8 @@ outra pessoa no ponto3 (20,2). Se predefinirmos o raio como 2 metros (utilizando
 
   Portanto, ainda serão testados as demais variáveis e demais códigos para que a simulação realmente possa ser efetiva em sua demonstração.
 
-ATUALIZAÇÃO (06/06/2023)
+$${\text{\Huge{\color{orange}Atualização - Relatório (06/06/2023)}}}$$
+$$\\ $$
 
 A partir da criação dos códigos de plotagem gráfica inicial, um novo código foi ordenado com o objetivo de realizar uma base de simulação para o nosso projeto. O resultado final desse código plota um gráfico composto por um plano cartesiano contendo um número de pessoas - isto que pode ser modificado no código - definido em random, ou seja, de modo aleatório em uma matriz, e que apresenta uma quantidade inicial de pessoas infectadas. Essa quantidade de infectados também pode ser modificada para que diferentes análises possam ser feitas para esta simulação. As pessoas saudáveis são aquelas representadas por bolinhas de cor azul; as infectadas, são aquelas que estão com a cor vermelha, magenta e roxa; já as com imunidade, por sua vez, são representadas pela cor verde.
 
