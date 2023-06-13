@@ -35,19 +35,19 @@ $${\text{\Huge{\color{orange}Atualização - Relatório (13/06/2023)}}}$$
 $$\\ $$
 
 **INSERÇÃO DE DADOS POR INPUT**
-	Após a criação do código, ao momento em que ele é rodado, foi adicionado um input para que o usuário possa por si mesmo decidir os parâmetros de valores que deseja simular. Isso foi adicionado com o objetivo de permitir com que o indivíduo que irá realizar a testagem do código possa utilizar de vários valores diferentes para diversas e quantas simulações forem necessárias para uma boa análise da simulação. 
+Após a criação do código, ao momento em que ele é rodado, foi adicionado um input para que o usuário possa por si mesmo decidir os parâmetros de valores que deseja simular. Isso foi adicionado com o objetivo de permitir com que o indivíduo que irá realizar a testagem do código possa utilizar de vários valores diferentes para diversas e quantas simulações forem necessárias para uma boa análise da simulação. 
  
-	Para isso, inicialmente, temos um input que pede a quantidade de humanos na simulação. Recomenda-se que seja um valor entre 1 a 1000 humanos, pois valores muito maiores que isso exigirá um tempo maior para que o código possa ser rodado em notebooks normais. Contudo, poderá ser rodado em um número maior dependendo do dispositivo utilizado. 
+Para isso, inicialmente, temos um input que pede a quantidade de humanos na simulação. Recomenda-se que seja um valor entre 1 a 1000 humanos, pois valores muito maiores que isso exigirá um tempo maior para que o código possa ser rodado em notebooks normais. Contudo, poderá ser rodado em um número maior dependendo do dispositivo utilizado. 
+
+A escala utilizada é definida em uma medida nxm (em metros), ou seja, é possível escolher qualquer área que desejar para a simulação dessa cidade. O usuário deve inserir dois valores contendo um “x” entre eles, para justamente indicar essa relação entre comprimento e largura da área.
  
-	A escala utilizada é definida em uma medida nxm (em metros), ou seja, é possível escolher qualquer área que desejar para a simulação dessa cidade. O usuário deve inserir dois valores contendo um “x” entre eles, para justamente indicar essa relação entre comprimento e largura da área.
+O número de infectados iniciais permanece a critério do usuário a partir do número de humanos que foi indicado por ele. Além disso, o raio de infecção também pode ser decidido. No entanto, é válido ressaltar que estamos utilizando um parâmetro em metros, logo, o raio deverá ser um valor dentro da escala definida pelo indivíduo.
  
-	O número de infectados iniciais permanece a critério do usuário a partir do número de humanos que foi indicado por ele. Além disso, o raio de infecção também pode ser decidido. No entanto, é válido ressaltar que estamos utilizando um parâmetro em metros, logo, o raio deverá ser um valor dentro da escala definida pelo indivíduo.
+A probabilidade de infecção se refere à taxa de transmissão. Esse número inserido deve ser entre um valor maior que zero até um valor menor ou igual a 1. Ressalta-se que esse valor deve ser inserido como float, utilizando o ponto para representar as casas decimais. Esse número escolhido entre 0 a 1 indica uma taxa em porcentagem. Por exemplo, se for inserido um valor de 0.4, significa que, considerando toda a população amostral como suscetível à contaminação, existe uma probabilidade de 40% de uma pessoa vizinha ser infectada quando entra em contato com uma pessoa que já possui a doença dentro do raio previamente estabelecido pelo usuário. No entanto, é válido ressaltar que essa probabilidade é diminuída à medida que a distância aumenta.
  
-	A probabilidade de infecção se refere à taxa de transmissão. Esse número inserido deve ser entre um valor maior que zero até um valor menor ou igual a 1. Ressalta-se que esse valor deve ser inserido como float, utilizando o ponto para representar as casas decimais. Esse número escolhido entre 0 a 1 indica uma taxa em porcentagem. Por exemplo, se for inserido um valor de 0.4, significa que, considerando toda a população amostral como suscetível à contaminação, existe uma probabilidade de 40% de uma pessoa vizinha ser infectada quando entra em contato com uma pessoa que já possui a doença dentro do raio previamente estabelecido pelo usuário. No entanto, é válido ressaltar que essa probabilidade é diminuída à medida que a distância aumenta.
+Após isso, tem-se os dias padrão de infecção a ser definido. Esses dias dizem a quanto tempo leva de quando o indivíduo é contaminado até ter sua saúde completamente estabelecida sem o vírus. Nesse caso em específico, considera-se que todos os indivíduos possuem o mesmo tempo de recuperação. 
  
-	Após isso, tem-se os dias padrão de infecção a ser definido. Esses dias dizem a quanto tempo leva de quando o indivíduo é contaminado até ter sua saúde completamente estabelecida sem o vírus. Nesse caso em específico, considera-se que todos os indivíduos possuem o mesmo tempo de recuperação. 
- 
-	Por fim, a última pergunta do input se refere aos dias de simulação. Este parâmetro também fica a critério do usuário, não tendo necessariamente um limite pré-estabelecido. 
+Por fim, a última pergunta do input se refere aos dias de simulação. Este parâmetro também fica a critério do usuário, não tendo necessariamente um limite pré-estabelecido. 
 
 **MOVIMENTO ENTRE OS INDIVÍDUOS**
 	
