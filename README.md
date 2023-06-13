@@ -51,4 +51,6 @@ Após isso, tem-se os dias padrão de infecção a ser definido. Esses dias dize
 Por fim, a última pergunta do input se refere aos dias de simulação. Este parâmetro também fica a critério do usuário, não tendo necessariamente um limite pré-estabelecido. 
 
 **MOVIMENTO ENTRE OS INDIVÍDUOS**
-	
+
+Foi adicionado um código em que os habitantes se movimentam. Isso foi feito para obter uma simulação mais realística de pessoas que podem ir para outros locais e, consequentemente, contaminar pessoas que já estavam naquele local anteriormente. 
+
