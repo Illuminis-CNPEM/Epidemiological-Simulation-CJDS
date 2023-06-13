@@ -61,4 +61,5 @@ Abaixo está presente um GIF com uma simulação com dados previamente estabelec
 #inserir o gif aqui
 
 **CÓDIGO ATUALIZADO**
+
 O código está atualizado no arquivo com o nome "main.ipynb".
