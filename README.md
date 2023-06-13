@@ -35,6 +35,7 @@ $${\text{\Huge{\color{orange}Atualização - Relatório (13/06/2023)}}}$$
 $$\\ $$
 
 **INSERÇÃO DE DADOS POR INPUT**
+
 Após a criação do código, ao momento em que ele é rodado, foi adicionado um input para que o usuário possa por si mesmo decidir os parâmetros de valores que deseja simular. Isso foi adicionado com o objetivo de permitir com que o indivíduo que irá realizar a testagem do código possa utilizar de vários valores diferentes para diversas e quantas simulações forem necessárias para uma boa análise da simulação. 
  
 Para isso, inicialmente, temos um input que pede a quantidade de humanos na simulação. Recomenda-se que seja um valor entre 1 a 1000 humanos, pois valores muito maiores que isso exigirá um tempo maior para que o código possa ser rodado em notebooks normais. Contudo, poderá ser rodado em um número maior dependendo do dispositivo utilizado. 
