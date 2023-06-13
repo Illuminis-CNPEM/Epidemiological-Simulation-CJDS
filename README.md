@@ -54,3 +54,11 @@ Por fim, a última pergunta do input se refere aos dias de simulação. Este par
 
 Foi adicionado um código em que os habitantes se movimentam. Isso foi feito para obter uma simulação mais realística de pessoas que podem ir para outros locais e, consequentemente, contaminar pessoas que já estavam naquele local anteriormente. 
 
+**GIF DE SIMULAÇÃO**
+
+Abaixo está presente um GIF com uma simulação com dados previamente estabelecidos para ser possível identificar o comportamento do gráfico (ainda sem o movimento entre os indivíduos)
+
+#inserir o gif aqui
+
+**CÓDIGO ATUALIZADO**
+O código está atualizado no arquivo com o nome "main.ipynb".
