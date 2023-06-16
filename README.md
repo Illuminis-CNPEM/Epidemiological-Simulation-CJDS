@@ -58,8 +58,7 @@ Foi adicionado um código em que os habitantes se movimentam. Isso foi feito par
 
 Abaixo está presente um GIF com uma simulação com dados previamente estabelecidos para ser possível identificar o comportamento do gráfico (ainda sem o movimento entre os indivíduos)
 
-![]
-(https://github.com/Epidemiological-Simulation-CJDS/simulacao.gif)
+![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulacao.gif)
 
 **CÓDIGO ATUALIZADO**
 
