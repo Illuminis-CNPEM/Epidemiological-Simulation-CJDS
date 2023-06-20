@@ -12,16 +12,16 @@ Nesta parte, será apresentado em tópicos a operação da simulação em quest�
 <li> O objetivo desse código é realizar a simulação de evolução epidemiológica em uma determinada cidade em que o próprio usuário irá definir. </li>
 <li> O código é programado de maneira a relacionar um vírus em que, dependendo dos parâmetros decididos por quem irá executá-lo, consiga apresentar o comportamento das pessoas em relação à infecção. O código encontra-se abaixo: </li>
 <li> Existem vários inputs a serem comentados: </li>
-<li> 1. Tamanho da cidade mxn: indica a escala da cidade. O usuário pode inserir quaisquer valores que desejar, ressaltando que a letra "x" (em minúsculo) deve estar entre os números para as dimensões da escala. Por exemplo: 40x40, 20x60. </li>
+<li> 1. Tamanho da cidade no formato (nxm): indica a escala da cidade. O usuário pode inserir quaisquer valores que desejar, ressaltando que a letra "x" (em minúsculo) deve estar entre os números para as dimensões da escala. Por exemplo: 40x40, 20x60. </li>
 <li> 2. Máximo de passos por dia em porcentagem decimal da própria cidade (0.0 - 1.0): representa o quanto os habitantes irão se movimentar. Por exemplo, em uma escala 100x100, se o usuário inserir o valor máximo (1.0), ele poderá se movimentar no máximo até um décimo da escala, ou seja, o seu limite será um quadrado de 10x10. </li>
-<li> 3. Quantos humanos você deseja colocar: indica a quantidade de habitantes que deseja simular</li>
-<li> 4. Quantas pessoas infectadas você quer ter inicialmente (%): deve ser inserido um número inteiro, sendo esse número uma porcentagem referente ao número total de habitantes que foi escolhido anteriormente.Por exemplo, se foi escolhido uma cidade com</li>
-<li> 5. Qual o raio de infecção: representa o tamanho do raio em que a pessoa infectada pode transmitir para outras pessoas dentro da escala definida</li>
-<li> 6. Taxa de infecção (0.1 - 1.0): indica a probabilidade de infecção (por exemplo, 0,8 representa 80% de probabilidade)</li>
-<li> 7. Tempo médio de morte: tempo que leva o indivíduo a morrer a partir do dia da infecção</li>
+<li> 3. Número inicial de pessoas na simulação: indica a quantidade de habitantes que deseja simular</li>
+<li> 4. Número de pessoas infectadas inicialmente em porcentagem (- 100%): deve ser inserido um número inteiro, sendo esse número uma porcentagem referente ao número total de habitantes que foi escolhido anteriormente.Por exemplo, se foi escolhido uma cidade com</li>
+<li> 5. Raio de infecção em unidade de distância: representa o tamanho do raio em que a pessoa infectada pode transmitir para outras pessoas dentro da escala definida</li>
+<li> 6. Taxa de infecção em porcentagem decimal da própria cidade (- 1.0): indica a probabilidade de infecção (por exemplo, 0,8 representa 80% de probabilidade)</li>
+<li> 7. Tempo médio de morte em dias: tempo que leva o indivíduo a morrer a partir do dia da infecção</li>
 <li> 8. Desvio padrão da distribuição da probabilidade de morte: taxa de erro (para mais ou para menos) da probabilidade de morte das pessoas</li>
-<li> 9. Dias padrão de infecção: quanto tempo os habitantes ficarão infectados até se recuperarem totalmente</li>
-<li> 10. Quantos dias você quer simular: decide quanto tempo essa simulação será executada.</li>
+<li> 9. Período padrão de infecção em dias: quanto tempo os habitantes ficarão infectados até se recuperarem totalmente</li>
+<li> 10. Número máximo de dias para a simulação: decide quanto tempo essa simulação será executada.</li>
 
 A partir disso, o gráfico é gerado dia por dia, indicando a movimentação entre as pessoas (as quais estão representadas por bolinhas) e como o vírus irá se espalhar.
 Cada pessoa é representado por uma cor:
@@ -33,9 +33,13 @@ Cada pessoa é representado por uma cor:
 <li> Verde: imune </li>
 <li> Preto: morto </li>
 
-Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. Uma simulação em gif pode ser visualizada abaixo: 
+Abaixo, uma simulação em gif pode ser visualizada: 
 
 ![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulation.gif)
+
+Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. Um exemplo de tal gráfico na mesma situação do gif acima pode ser visto abaixo:
+
+![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulation_graph.png)
 
 $${\text{\Huge{\color{orange}Início do relatório - 30/05/2023}}}$$
 $$\\ $$
@@ -120,6 +124,10 @@ O código foi implementado de maneira que houvesse, também, logo após o térmi
 **GIF DE SIMULAÇÃO**
 O novo gif é gerado com legenda para cada cor indicada e com o movimento entre os habitantes. Isso facilita a visualização do usuário para compreender como que a propagação do vírus irá ocorrer a partir da movimentação deles. 
 
+**GRÁFICO DO COMPORTAMENTO POPULACIONAL**
+Ao final do código, um gráfico é plotado com o número de pessoas em três condições (saudável, infectado e morto) em função do tempo em dia, o que possibilita uma análise da simulação a partir de uma perspectiva visual e numérica. Um exemplo de tal gráfico pode ser visto abaixo.
+
+![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulation_graph.png)
 
 **RESULTADO FINAL**
 O código final está no mesmo repositório com o título "main.ipynb". 
