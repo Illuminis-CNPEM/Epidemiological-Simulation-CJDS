@@ -33,7 +33,8 @@ Cada pessoa é representado por uma cor:
 <li> Verde: imune </li>
 <li> Preto: morto </li>
 
-Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. 
+Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. Uma simulação em gif pode ser visualizada abaixo: 
+** INSIRA O GIF AQUI **
 
 $${\text{\Huge{\color{orange}Início do relatório - 30/05/2023}}}$$
 $$\\ $$
@@ -110,6 +111,7 @@ Foi adicionado o parâmetro de mortes, indicando indivíduos que, a partir da co
 
 **GIF DE SIMULAÇÃO**
 O novo gif é gerado com legenda para cada cor indicada e com o movimento entre os habitantes. Isso facilita a visualização do usuário para compreender como que a propagação do vírus irá ocorrer a partir da movimentação deles. 
+
 
 **RESULTADO FINAL**
 O código final está no mesmo repositório com o título "main.ipynb". 
