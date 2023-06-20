@@ -1,10 +1,40 @@
 $${\text{\Huge{\color{orange}Epidemological Simulation - Ilum 2023}}}$$
 $$\\ $$
 
+
 $${\text{\Huge{\color{purple}READ ME FINAL:}}}$$
 $$\\ $$
 
 
+Nesta parte, será apresentado em tópicos a operação da simulação em questão e, abaixo, serão apresentados os relatórios atualizados em cada aula, juntamente aos textos explicativos detalhadamente.
+
+
+<li> O objetivo desse código é realizar a simulação de evolução epidemiológica em uma determinada cidade em que o próprio usuário irá definir. </li>
+<li> O código é programado de maneira a relacionar um vírus em que, dependendo dos parâmetros decididos por quem irá executá-lo, consiga apresentar o comportamento das pessoas em relação à infecção. O código encontra-se abaixo: </li>
+
+
+<li> Existem vários inputs a serem comentados: </li>
+<li> 1. Tamanho da cidade mxn: indica a escala da cidade. O usuário pode inserir quaisquer valores que desejar, ressaltando que a letra "x" (em minúsculo) deve estar entre os números para as dimensões da escala. Por exemplo: 40x40, 20x60. </li>
+<li> 2. Máximo de passos por dia em porcentagem decimal da própria cidade (0.0 - 1.0): representa o quanto os habitantes irão se movimentar. Por exemplo, em uma escala 100x100, se o usuário inserir o valor máximo (1.0), ele poderá se movimentar no máximo até um décimo da escala, ou seja, o seu limite será um quadrado de 10x10. </li>
+<li> 3. Quantos humanos você deseja colocar: indica a quantidade de habitantes que deseja simular</li>
+<li> 4. Quantas pessoas infectadas você quer ter inicialmente (%): deve ser inserido um número inteiro, sendo esse número uma porcentagem referente ao número total de habitantes que foi escolhido anteriormente.Por exemplo, se foi escolhido uma cidade com</li>
+<li> 5. Qual o raio de infecção: representa o tamanho do raio em que a pessoa infectada pode transmitir para outras pessoas dentro da escala definida</li>
+<li> 6. Taxa de infecção (0.1 - 1.0): indica a probabilidade de infecção (por exemplo, 0,8 representa 80% de probabilidade)</li>
+<li> 7. Tempo médio de morte: tempo que leva o indivíduo a morrer a partir do dia da infecção</li>
+<li> 8. Desvio padrão da distribuição da probabilidade de morte: taxa de erro (para mais ou para menos) da probabilidade de morte das pessoas</li>
+<li> 9. Dias padrão de infecção: quanto tempo os habitantes ficarão infectados até se recuperarem totalmente</li>
+<li> 10. Quantos dias você quer simular: decide quanto tempo essa simulação será executada.</li>
+
+Assim, o gráfico plotado indicará uma cidade onde os indivíduos (representado em bolinhas) irão se movimentar, cada um deles representado por uma cor:
+
+<li> Azul: indivíduo saudável </li>
+<li> Vermelho: recém-infectado</li>
+<li> Magneta: infectado intermediário</li>
+<li> Roxo: infectado em recuperação</li>
+<li> Verde: imune </li>
+<li> Preto: morto </li>
+
+Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. 
 
 $${\text{\Huge{\color{orange}Início do relatório - 30/05/2023}}}$$
 $$\\ $$
