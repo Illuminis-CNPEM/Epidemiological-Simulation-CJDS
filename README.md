@@ -1,5 +1,13 @@
 $${\text{\Huge{\color{orange}Epidemological Simulation - Ilum 2023}}}$$
 $$\\ $$
+
+$${\text{\Huge{\color{purple}READ ME FINAL:}}}$$
+$$\\ $$
+
+
+
+$${\text{\Huge{\color{orange}Início do relatório - 30/05/2023}}}$$
+$$\\ $$
 Para este projeto, foi definido o título “Simulação de evolução epidemiológica”, cujo objetivo é simular a evolução temporal de um vírus dentro de uma população. Esse tipo de projeto se baseia no uso inicial da linguagem Python para representar probabilidades de infecção por meio de determinação de variáveis necessárias para ser possível visualizar o comportamento desse vírus na população. Serão estudadas várias possibilidades e casos, infimamente com o intuito de compreender possíveis situações reais aplicados a estudos estatísticos na área de doenças virais.
   
   Essa simulação busca realizar uma reprodução de como um possível vírus, a partir de uma única pessoa contaminada, seria capaz de se disseminar em diferentes níveis de propagação a depender de, principalmente, cinco variáveis: definição dos indivíduos, seja por matriz ou por plano cartesiano; distância relativa entre cada pessoa; definição da probabilidade de infecção; definição do raio de contaminação a partir da área indicada; e nível de imunidade relativa para cada indivíduo dessa população. Essa simulação busca se aproximar da realidade levando em conta várias variáveis para serem consideradas, uma vez que, de fato, uma infecção que possivelmente se transformaria em epidemia iria depender diretamente de inúmeros contextos diferentes a serem analisados. Esse tipo de análise estatística depende diretamente da aplicação de valores previamente fixos, para que uma base central de dados possa iniciar e a simulação possa ser rodada. Para cada variável, podemos realizar a análise a seguir.
