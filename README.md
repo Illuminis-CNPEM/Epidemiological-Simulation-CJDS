@@ -11,8 +11,7 @@ Nesta parte, será apresentado em tópicos a operação da simulação em quest�
 
 <li> O objetivo desse código é realizar a simulação de evolução epidemiológica em uma determinada cidade em que o próprio usuário irá definir. </li>
 <li> O código é programado de maneira a relacionar um vírus em que, dependendo dos parâmetros decididos por quem irá executá-lo, consiga apresentar o comportamento das pessoas em relação à infecção. O código encontra-se abaixo: </li>
-
-
+{% empty %}
 <li> Existem vários inputs a serem comentados: </li>
 <li> 1. Tamanho da cidade mxn: indica a escala da cidade. O usuário pode inserir quaisquer valores que desejar, ressaltando que a letra "x" (em minúsculo) deve estar entre os números para as dimensões da escala. Por exemplo: 40x40, 20x60. </li>
 <li> 2. Máximo de passos por dia em porcentagem decimal da própria cidade (0.0 - 1.0): representa o quanto os habitantes irão se movimentar. Por exemplo, em uma escala 100x100, se o usuário inserir o valor máximo (1.0), ele poderá se movimentar no máximo até um décimo da escala, ou seja, o seu limite será um quadrado de 10x10. </li>
