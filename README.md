@@ -113,6 +113,10 @@ $$\\ $$
 Foi adicionado o parâmetro de mortes, indicando indivíduos que, a partir da contaminação pela doença, poderá desenvolver probabilidade de morrer, a depender dos dias em que ele permanece com a mesma infecção. Esses indivíduos mortos, a partir do momento em que se transformam na cor "preta", não poderá mais se mover, sendo retirado, portanto, da lista de pessoas saudáveis. 
 
 
+**GRÁFICO DE INFECÇÃO** 
+O código foi implementado de maneira que houvesse, também, logo após o término da simulação pelo tempo total em dias, a plotagem de um gráfico em que apresenta a quantidade de pessoas para cada estágio de infecção (representada pelas cores) ao longo dos dias, podendo comparar as faixas em que tiveram os maiores predomínios de determinado comportamento populacional. 
+
+
 **GIF DE SIMULAÇÃO**
 O novo gif é gerado com legenda para cada cor indicada e com o movimento entre os habitantes. Isso facilita a visualização do usuário para compreender como que a propagação do vírus irá ocorrer a partir da movimentação deles. 
 
