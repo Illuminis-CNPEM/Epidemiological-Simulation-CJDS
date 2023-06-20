@@ -34,7 +34,8 @@ Cada pessoa é representado por uma cor:
 <li> Preto: morto </li>
 
 Além disso, é possível gerar um gráfico do comportamento populacional (situação de saúde) em função do tempo decorrido. Esse gráfico é gerado logo após toda a simulação acabar, desde que o código seja executado completamente. Uma simulação em gif pode ser visualizada abaixo: 
-** INSIRA O GIF AQUI **
+
+![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulation.gif)
 
 $${\text{\Huge{\color{orange}Início do relatório - 30/05/2023}}}$$
 $$\\ $$
@@ -97,6 +98,9 @@ Foi adicionado um código em que os habitantes se movimentam. Isso foi feito par
 Abaixo está presente um GIF com uma simulação com dados previamente estabelecidos para ser possível identificar o comportamento do gráfico (ainda sem o movimento entre os indivíduos)
 
 ![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulacao.gif)
+
+
+![](https://github.com/Illuminis-CNPEM/Epidemiological-Simulation-CJDS/blob/main/simulation.gif)
 
 **CÓDIGO ATUALIZADO**
 
