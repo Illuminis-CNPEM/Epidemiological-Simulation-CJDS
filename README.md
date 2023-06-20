@@ -23,7 +23,8 @@ Nesta parte, será apresentado em tópicos a operação da simulação em quest�
 <li> 9. Dias padrão de infecção: quanto tempo os habitantes ficarão infectados até se recuperarem totalmente</li>
 <li> 10. Quantos dias você quer simular: decide quanto tempo essa simulação será executada.</li>
 
-Assim, o gráfico plotado indicará uma cidade onde os indivíduos (representado em bolinhas) irão se movimentar, cada um deles representado por uma cor:
+A partir disso, o gráfico é gerado dia por dia, indicando a movimentação entre as pessoas (as quais estão representadas por bolinhas) e como o vírus irá se espalhar.
+Cada pessoa é representado por uma cor:
 
 <li> Azul: indivíduo saudável </li>
 <li> Vermelho: recém-infectado</li>
